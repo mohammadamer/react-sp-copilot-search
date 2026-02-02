@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://atea.sharepoint.com/sites/CMP-Development/SitePages/Home.aspx",
+      "customActions": {
+        "a2eaa7e6-5209-4763-964f-0c7b70397a2d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spCopilotSearch": {
+      "pageUrl": "https://atea.sharepoint.com/sites/CMP-Development/SitePages/Home.aspx",
+      "customActions": {
+        "a2eaa7e6-5209-4763-964f-0c7b70397a2d": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

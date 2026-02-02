@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "react-sp-copilot-search",
+    "libraryId": "2511eb67-557d-46e7-9380-8a0c4dd73bfc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-sp-copilot-search",
+    "solutionShortDescription": "react-sp-copilot-search description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
